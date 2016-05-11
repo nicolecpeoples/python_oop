@@ -42,5 +42,5 @@ dog = Dog()
 dog.walk().displayHealth()
 dragon = Dragon()
 dragon.walk().displayHealth()
-animal.walk().walk().walk().displayHealth()
+animal.walk().walk().walk()	.displayHealth()
 
