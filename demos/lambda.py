@@ -23,3 +23,28 @@ def find_first_e(word):
 sorted(animals, key=find_first_e)
 
 #find the lowest and highest associated value 
+
+#an element in a list
+my_list = ['test_string', 99, lambda x: x **2]
+
+print my_list[2](4)
+
+#as a callback
+
+def  invoker(callback):
+	print callback(3)
+
+invoker1 = invoker(lambda x: 2 * x)
+
+
+
+my_arr = [1,2,3,4,5]
+def square(num):
+	return num **2
+# print map(square, my_arr)
+
+print map(lambda x:x**2, my_arr)
+print reduce(lambda x,y: x+y, my_arr)
+
+
+
